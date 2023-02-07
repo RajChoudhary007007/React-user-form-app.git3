@@ -1,0 +1,75 @@
+.list-container {
+  list-style-type: none;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.mini-container {
+  border: 1px solid #7683cb;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  min-width: 120px;
+  height: 100px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .mini-container {
+    max-width: 25%;
+    min-width: 250px;
+    justify-content: center;
+  }
+}
+.heading-password-list {
+  height: 50px;
+  width: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 700;
+  color: white;
+  background-color: green;
+  border-radius: 50px;
+}
+.name-description {
+  font-size: 20px;
+  font-family: roboto;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+.password-description {
+  font-size: 13px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  margin-top: 3;
+  margin-right: 15px;
+}
+.button-pass {
+  font-size: 13px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  height: 20px;
+  width: 20px;
+}
+.del-img {
+  height: 20px;
+  width: 20px;
+}
+.start {
+  width: 130px;
+}
